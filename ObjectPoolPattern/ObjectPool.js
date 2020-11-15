@@ -1,6 +1,6 @@
 
 export class ObjectPool{
     constructor(){
-        this.objectPool = []
+        this.objectPool = [new Object, new Object, new Object, new Object, new Object, new Object]
     }
 }
